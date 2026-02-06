@@ -34,13 +34,15 @@ const projects = [
         name: "ILLUSTRATED BOOK", 
         cat: "ILLUSTRATION", 
         heroColor: "#1A1A1D",
-        description: "Pushing the boundaries of interactive web experiences.",
+        description: "An exploration of storytelling through digital illustration and texture.",
         thumbnail: "images/images/ILLUSTRATION assignment 1_Page_01.jpg", 
-        img1: "assets/vertex-process1.jpg", 
-        narrative: "An exploration of storytelling through digital illustration and texture.",
+        img1: "images/images/Gemini_Generated_Image_8ml1ok8ml1ok8ml1 - Copy.png", 
+        narrative: "The illustrated book project was a journey into the world of digital storytelling, where I sought to create a visual narrative that was both immersive and emotionally resonant. The process involved layering digital charcoal and grain brushes to evoke a sense of depth and texture, allowing the illustrations to breathe and come alive on the page.",
         extraSections: [
-            { type: 'dark', title: 'Execution', text: 'Layering digital charcoal and grain brushes.', img: 'assets/vertex-process2.jpg', layout: 'landscape' },
-            { type: 'light', title: 'Final Result', text: 'A tactile, immersive digital book experience.', img: 'assets/vertex-process3.jpg', layout: 'landscape' }
+            { type: 'dark', title: 'Process', text: 'The process involved layering digital brushes stroke to evoke a sense of depth and texture.', img: 'images/images/Gemini_Generated_Image_8wec548wec548wec.png', layout: 'landscape' },
+            { type: 'light', title: 'process', text: 'sympathise with the charecter as he is seen different from other', img: 'images/images/Gemini_Generated_Image_rvf8tzrvf8tzrvf8 - Copy.png', layout: 'landscape' },
+             { type: 'dark', title: 'process', text: 'viewing the scene from the protagonist\'s perspective', img: 'images/images/Gemini_Generated_Image_4td38d4td38d4td3.png', layout: 'landscape' },
+              { type: 'light', title: 'process', text: 'ending shows how people the author connects with the protagonist', img: 'images/images/Gemini_Generated_Image_lsbfh5lsbfh5lsbf.png', layout: 'landscape' },
         ]
     },
     { 
