@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDIO_V | Visual Systems</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onclick="createParticles(event)">
+
+    <div class="grain-overlay"></div>
+
+    <div id="loader">
+        <div class="loader-heart"></div>
+    </div>
+
+    <div id="cursor-wrapper">
+        <div class="heart-shape"></div>
+    </div>
+
+    <nav>
+        <div class="logo">Athira Manoj.</div>
+        <div class="nav-links">
+            <div class="mag-link-wrap"><button class="mag-btn" onclick="slideTo(0)">Intro</button></div>
+            <div class="mag-link-wrap"><button class="mag-btn" onclick="slideTo(1)">Work</button></div>
+            <div class="mag-link-wrap"><button class="mag-btn" onclick="slideTo(2)">About Me</button></div>
+            <div class="mag-link-wrap"><button class="mag-btn" onclick="slideTo(3)">Connect</button></div>
+        </div>
+    </nav>
+
+    <main id="viewport">
+        <section id="home" class="page">
+            <h1 class="hero-text">CONCEPT<br>TO<br><em>Creation.</em></h1>
+            <button class="portfolio-cta mag-btn" onclick="slideTo(1)">Peek Inside</button>
+        </section>
+
+        <section id="work" class="page">
+            <div class="work-grid" id="grid"></div>
+        </section>
+
+        <section id="about" class="page">
+            <h2 class="studio-header">Making things. Breaking things.<br>Fixing them before anyone notices.</h2>
+            <p class="studio-description">I’m [Name], and I help people visualize the invisible without the headache. Currently a 2nd-year Visual Communication student at UID Gandhinagar, I’ve spent the last two years (and plenty of sleepless nights) turning messy, half-baked ideas into polished, pixel-perfect results. Whether it’s typography that talks or branding that sticks, I’m all about the 'why' behind the 'wow'.</p>
+        </section>
+
+        <section id="contact" class="page">
+            <h2 class="connect-header">LET'S TALK.</h2>
+            <h3 class="email-text">athira2006manoj@gmail.com</h3>
+            <a href="https://www.linkedin.com/in/athira-manoj-439b1636b" target="_blank" class="mag-btn linkedin-btn">LinkedIn</a>
+            <a href="https://www.behance.net/athiramanoj3" target="_blank" class="mag-btn behance-btn">Behance</a>
+        </section>
+    </main>
+
+    <div class="overlay" id="overlay">
+        <div class="close-btn" onclick="closeStudy()">&times;</div>
+        <div id="overlayContent"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
